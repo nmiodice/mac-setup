@@ -1,0 +1,32 @@
+tap 'caskroom/cask'
+
+brew 'archey'
+brew 'bash'
+brew 'bash-completion'
+brew 'brew-cask'
+brew 'cowsay'
+brew 'ctags'
+brew 'fortune'
+brew 'git'
+brew 'node'
+brew 'openssl'
+brew 'python' #installs pip as well
+brew 'vim'
+
+cask 'alfred'
+cask 'appcleaner'
+cask 'dropbox'
+cask 'firefox'
+cask 'flux'
+cask 'google-chrome'
+cask 'google-hangouts'
+cask 'handbrake'
+cask 'skype'
+cask 'slack'
+cask 'sublime-text'
+cask 'the-unarchiver'
+cask 'transmission'
+cask 'vlc'
+cask 'xquartz' #required by wireshark
+cask 'wireshark'
+
