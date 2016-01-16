@@ -83,4 +83,9 @@ if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune ]; then
   fortune | cowsay
 fi
 
+# command line access to sublime
 alias sublime="open -a $HOME/Applications/Sublime\ Text\ 2.app"
+
+# prompt formatting
+export PS1="\[\033[38;5;11m\]\u\[$(tput sgr0)\]\[\033[38;5;15m\]: \[$(tput sgr0)\]\[\033[38;5;6m\]\W\[$(tput sgr0)\]\[\033[38;5;15m\] \\$\[$(tput sgr0)\] "
+
