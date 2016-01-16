@@ -16,6 +16,7 @@ brew 'vim'
 cask 'alfred'
 cask 'appcleaner'
 cask 'dropbox'
+cask 'spectacle'
 cask 'firefox'
 cask 'flux'
 cask 'google-chrome'
@@ -29,4 +30,3 @@ cask 'transmission'
 cask 'vlc'
 cask 'xquartz' #required by wireshark
 cask 'wireshark'
-

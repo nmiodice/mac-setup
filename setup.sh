@@ -23,4 +23,5 @@ fi
 cp configs/.bash_profile $HOME
 cp configs/.bashrc $HOME
 
+source ~/.bash_profile
 source ~/.bashrc

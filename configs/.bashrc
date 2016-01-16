@@ -83,3 +83,4 @@ if [ -x /usr/local/bin/cowsay -a -x /usr/local/bin/fortune ]; then
   fortune | cowsay
 fi
 
+alias sublime="open -a $HOME/Applications/Sublime\ Text\ 2.app"
