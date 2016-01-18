@@ -9,6 +9,7 @@ This utility
 ## Usage
 1. Install the XCode developer tools
 2. Run `sh setup.sh` to begin setup. This process will do a few things:
+
 	a. Copy config files to appropriate locations (i.e., `bashrc`)
 	
 	b. Install command line utilities `Homebrew` & `Cask`
