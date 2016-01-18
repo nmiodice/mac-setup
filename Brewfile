@@ -1,3 +1,11 @@
+# Application install
+#	Author: Nick Iodice, adapted from a script
+#			written by Dave Hand
+#	Dependencies:
+#		1. Homebrew
+#		2. Cask
+#
+
 tap 'caskroom/cask'
 
 brew 'archey'
@@ -14,6 +22,7 @@ brew 'python' #installs pip as well
 brew 'vim'
 
 cask 'alfred'
+cask 'android-studio'
 cask 'appcleaner'
 cask 'dropbox'
 cask 'spectacle'
@@ -22,8 +31,11 @@ cask 'flux'
 cask 'google-chrome'
 cask 'google-hangouts'
 cask 'handbrake'
+cask 'intellij-idea'
+cask 'java'
 cask 'skype'
 cask 'slack'
+cask 'sourcetree'
 cask 'sublime-text'
 cask 'textwrangler'
 cask 'the-unarchiver'

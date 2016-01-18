@@ -75,7 +75,7 @@ update() {
 
 # check that archey is installed, then run it
 if [ -x /usr/local/bin/archey ]; then
-  archey -c
+  archey --nocolor
 fi
 
 #check that both fortune and cowsay are installed, display them
