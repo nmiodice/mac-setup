@@ -9,6 +9,7 @@
 tap 'caskroom/cask'
 
 brew 'archey'
+brew 'python3'
 brew 'bash'
 brew 'bash-completion'
 brew 'brew-cask'
@@ -20,6 +21,9 @@ brew 'node'
 brew 'openssl'
 brew 'python' #installs pip as well
 brew 'vim'
+
+# Omitted:
+#	1. Microsoft OneNote
 
 cask 'alfred'
 cask 'android-studio'

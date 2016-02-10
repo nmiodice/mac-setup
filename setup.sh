@@ -5,19 +5,26 @@
 #		1. Xcode command line utilities
 #
 
+DROPBOX=$HOME/Dropbox
+DEV=$DROPBOX/dev
+
 echo “Installing HomeBrew and Cask”
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew tap Homebrew/bundle
 brew bundle
 
 # make development directory
-if [ ! -e $HOME/dev ]; then
+if [ ! -e $DEV ]; then
   echo “Creating development structure
-  mkdir $HOME/dev
-  mkdir $HOME/dev/android
-  mkdir $HOME/dev/tools
-  mkdir $HOME/dev/projects
+  mkdir $DEV
+  mkdir $DEV/android
+  mkdir $DEV/tools
+  mkdir $DEV/projects
+  mkdir $DEV/professional
 fi
+
+# link dev directory to root
+ln -s $DEV $HOME
 
 # move config files into place
 cp configs/.bash_profile $HOME
